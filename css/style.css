@@ -70,6 +70,66 @@ nav h1 {
 
 /***********HEADER AND LOGO STYLING END*****/
 
+/**************SECTION 2 NEWS***************/
+
+
+/**********************/
+
+
+
+/**********************/
+
+/*THIS IS THE THIRD SECTION STYLING*/
+
+.month-container {
+    margin:auto;
+    text-align: center;
+    max-width: 1200px;
+}
+
+.thismonthbanner {
+
+  border: 3px solid;  
+  background: url(/images/usbaudiointerfaces-2x1-.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 340px;
+}
+
+.heading {
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+  padding-right:35px;
+  background: -webkit-linear-gradient(gray, white, gray);
+}
+
+.name {  
+
+  font-weight: 100;
+  font-size: 46px;
+  margin-top: 50px;
+  color: black;
+}
+
+.subject {  
+    
+  font-weight: 200;
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 140px;
+  color: black;
+}
+
+/*THIS IS THE END OF THIRD SECTION STYLING*/
+
+
+
+
+
+
+
 
 
 
