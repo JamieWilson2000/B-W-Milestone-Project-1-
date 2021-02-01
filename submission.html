@@ -18,14 +18,14 @@
 
   <div class="row">
     <div class="col-4 left">
-      <nav><a href="#"><h1>submit your track</h1></a></nav>  </div>
+      <nav><a href="#"><h1 style="color: blue">submit your track</h1></a></nav>  </div>
       
     <div class="col-4 center">
       <h1><strong>the</strong> <grey>musical</grey> <strong>note</strong><br></h1>
     </div>
 
        <div class="col-4 right">
-        <nav><a href=""><h1>contact us</h1></a></nav></div>
+        <nav><a href="contact.html"><h1 >contact us</h1></a></nav></div>
   </div>    
 
     <div class="row">
@@ -50,17 +50,43 @@
 </section>
 <!--**********END-HEADER AND LOGO**********-->
 
-<section>Submit your track</section>
+<hr>
+
+<section class="contact-form">
+    <div class="container">
+        <form> 
+            <label for="urlname">soundcloud link</label>
+            <input type="text" id="urlname" name="name" class="inputwidth"><br>
+            <label for="email">name of track</label><br>
+            <input type="email" id="email" name="email" class="inputwidth">
+            <label for="aname">name of artist / band</label><br>
+            <input type="text" id="aname" name="name" class="inputwidth"><br>
+            <hr>
+           
+            <form action="/form/submit" method="POST" >
+            <textarea class="subcomment" placeholder="tell us a little about the track..."></textarea><br>
+            
+            <input type="submit" name="submit" value="send">
+            
+            </form>
+        </form>
+    </div>
+</section>
+
+<hr>
+<hr>
+<hr>
+<hr>
 
 <!--**********FOOTER STYLING**********-->
 
-<footer>
+<footer class="fixed-footer">
   <div class="social-links">
     
-  <i class="fa fa-facebook"></i>
-  <i class="fa fa-twitter"></i>
-  <i class="fa fa-pinterest"></i>
-  <i class="fa fa-instagram"></i>
+    <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook"></i></a>
+    <a href="https://www.twitter.com/" target="_blank"> <i class="fa fa-twitter"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram"></i></a>
+    <a href="https://www.soundcloud.com/" target="_blank"> <i class="fa fa-soundcloud"></i></a>
   <p>February Issue 121 Wilson Publishing 2021</p>
   </div>
 </footer>
