@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
+/***********GENERAL BODY STYLING*****/
+body {
+  font-family: Oswald, sans-serif;
+}
+
+.container {
+    max-width: 500px;
+}
+
+hr {
+    border: none;
+    
+}
+
+grey {
+  color: grey;
+}
+
+nav h1 {
+  color: white;
+}
+/***********GENERAL BODY STYLING END*****/
+
+/***********HEADER AND LOGO STYLING*****/
+.left {
+  text-align: center;
+  background-color: black;
+}
+
+.left2 {
+  text-align: center;
+
+}
+
+.left3 {
+  text-align: center;
+  
+}
+
+.center {
+  text-align: center;  
+  background-color: white;
+  border-left: 3px solid;
+  border-right: 3px solid;
+}
+.basecenter {
+  text-align: center;  
+  background-color: white;
+  border-left: 3px solid;
+  border-right: 3px solid;
+  border-bottom: 3px solid;
+}
+
+.right {
+  text-align: center;
+  background: black;
+}
+
+.right2 {
+  text-align: center;
+}
+
+.right3 {
+  text-align: center;
+}
+
+/***********HEADER AND LOGO STYLING END*****/
+
+
+
+
+/*THIS IS THE FOOTER AREA STYLING*/
+
+i {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.social-links {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  max-width: 100%;
+  background: black;
+  position: relative;
+  border-bottom: 1px solid;
+}
+
+footer p {
+  font-size: x-small;
+}
+
+/*END OF FOOTER AREA STYLING*/
+
+/*MAIN ARTICLE STYLING*/
+
+.main-article {
+    min-height: 420px;
+    border: 2px solid;
+}
+
+/*CONTACT FORM STYLING*/
+
+.form-control {
+    border: 1px solid;
+    width: 450px;
+    margin-left: 10px;
+}
+
+.inputwidth {
+    width: 450px;
+    text-align: center;
+}
+
+.contact-form {
+    text-align: center;
+    }
+
+.textbox {
+    border: 1px solid;
+    height: 50px;
+    width: 50px;
+}
+
+.comment {
+    width: 450px;
+    height: 100px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
