@@ -20,6 +20,11 @@ grey {
   color: grey;
 }
 
+strong {
+    color: black;
+}
+
+
 nav h1 {
   color: white;
 }
@@ -42,6 +47,7 @@ nav h1 {
 }
 
 .center {
+
   text-align: center;  
   background-color: white;
   border-left: 3px solid;
