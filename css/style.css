@@ -73,7 +73,7 @@ nav h1 {
 /**************SECTION 2 NEWS***************/
 
 
-/*MAIN LANDING STYLING*/
+/*FEATURING THIS MONTH STYLING*/
 table {
   margin-left: auto;
   margin-right: auto;
@@ -99,7 +99,70 @@ yellow {
     color: yellow;
 }
 
-/*END OF MAIN LANDING STYLING*/
+/*END OF FEATURING THIS MONTH STYLING*/
+
+/*THIS IS THE SECOND SECTION STYLING*/
+
+.leftarticle {
+  margin-top: 40px;
+  z-index: 1;
+  background: url(/images/img4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 50px;
+  bottom: 30px;
+  min-height: 360px;
+  
+}
+
+.labelstyle {
+  margin-left: 350px;
+  font-size: xx-large;
+  color: gold;
+}
+
+.labelstyle2 {
+  margin-left: 350px;
+  font-size: xxx-large;
+  color: gold;
+}
+
+.labelstyle3 {
+  margin-left: 350px;
+  font-size: large;
+  color: gold;
+}
+
+.rightarticle {
+    margin-top: 40px;
+  background: url(/images/img5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  right: 50px;
+  min-height: 360px;
+}
+
+.labelstyle4 {
+  border: 3px solid black;
+  background: green;
+  margin-top: 125px;
+  margin-left: 360px;
+  font-size: xxx-large;
+  color: gold;
+}
+
+.labelstyle5 {
+  border: 3px solid black;
+  background: green;
+  margin-top: 40px;
+  margin-left: 300px;
+  font-size: large;
+  text-align: center;
+  color: gold;
+}
+/*END OF SECOND SECTION STYLING*/
 
 
 /**********************/
@@ -113,7 +176,7 @@ yellow {
 }
 
 .thismonthbanner {
-
+  margin-top: 10px;
   border: 3px solid;  
   background: url(/images/usbaudiointerfaces-2x1-.jpg);
   background-position: center;
@@ -123,6 +186,7 @@ yellow {
 }
 
 .heading {
+    margin-top: 10px;
     border-top: 3px solid black;
     border-right: 3px solid black;
     border-bottom: 3px solid black;
@@ -161,6 +225,7 @@ yellow {
 /*THIS IS THE FOOTER AREA STYLING*/
 
 .fixed-footer {
+    z-index: 2;
     width: 100%;
     position: fixed;
     bottom: 0;
