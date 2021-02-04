@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
-/***********GENERAL BODY STYLING*****/
+/***********SHARED BODY STYLING*****/
 body {
   font-family: Oswald, sans-serif;
   
@@ -28,7 +28,7 @@ strong {
 nav h1 {
   color: white;
 }
-/***********GENERAL BODY STYLING END*****/
+/***********SHARED BODY STYLING END*****/
 
 /***********HEADER AND LOGO STYLING*****/
 .left {
@@ -77,8 +77,6 @@ nav h1 {
 
 /***********HEADER AND LOGO STYLING END*****/
 
-/**************SECTION 2 NEWS***************/
-
 
 /*FEATURING THIS MONTH STYLING*/
 table {
@@ -108,7 +106,19 @@ yellow {
 
 /*END OF FEATURING THIS MONTH STYLING*/
 
-/*THIS IS THE SECOND SECTION STYLING*/
+/*THIS IS THE LEFT AND RIGHT SECTION STYLING*/
+
+.btn {
+    color: yellow;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.btn:hover {
+    background-color: transparent;
+}
 
 .leftarticle {
   margin-top: 40px;
@@ -121,6 +131,16 @@ yellow {
   bottom: 30px;
   min-height: 360px;
   
+}
+
+.labelcolor {
+    color: white;
+}
+.labelcolor1 {
+    color: white;
+    font-size: 100px;
+    
+    
 }
 
 .labelstyle {
