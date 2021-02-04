@@ -1,45 +1,37 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome JamieWilson2000,
+![logo](assets/images/the musical wave.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Milestone Project One Jamie Wilson
 
-## Gitpod Reminders
+Main Idea:
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+As a hobbyist music composer/producer I am constantly scrolling through the internet, reading reviews, tips, methods and generally trying to keep abreast of the constantly changing world of music technology. So I thought my project should centre around a site that I myself would be interested in visiting on a regular basis.
 
-`python3 -m http.server`
+The basis of the idea:
 
-A blue button should appear to click: *Make Public*,
+A monthly website aimed at musicians young and old, experienced and unskilled, with the aim to educate and inform those who have an interest in creating music. I have planned and laid out a site which, in theory, would be easily updateable and expandable on a monthly basis so as to keep a relevant stream of fresh, interesting and accurate content being delivered to the user. It is with this in mind that I feel, as someone who would personally be interested in a site like this, that the finished product will give the user access to relevant, interesting news, advice and reviews, and an opportunity to have their own music featured on the site.
 
-Another blue button should appear to click: *Open Browser*.
+Main Page Content:
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The page will consist of:
+A main header with logo
+A main banner with a summary of content
+A regular feature "in interview"
+A regular feature "tech news"
+A "this month" feature which would target a different aspect of music technology each month
+and finally a footer contining social links and copyright/ownership information.
 
-A blue button should appear to click: *Make Public*,
+Each element will lead the user to an individual page dedicated to that particular task in hand.
 
-Another blue button should appear to click: *Open Browser*.
+General Typography and styling:
+The styling that i have decided to go for is a very clean black and white interface.  I have opted for the Oswald font style because after being introduced to it via the learning modules, I have become rather fond of its style and felt it fitted in with the look I was hoping to acheive. I decided to go with a style of text where I refrain from using capitals,I personally like this style but to some I appreciate it can look un-attractive.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Methods used:
 
-## Updates Since The Instructional Video
+**For the zooming animation used in the landing page front image, I refered back to the "Love running" module and used the guidance provided there to acheive the effect. I chose not to alter it other than increase the animation time to 3s because I felt happy with the general look of the effect.**
+**EDIT: After much deliberation, I decided to remove the animation from the landing page. I felt that the feel was too gimmicky and fought against the look and feel of the site which I wanted to stay clean and crisp.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+Source of images used: Next Big Hit: https://www.digitaldjtips.com/2018/11/how-dance-music-is-made-today-part-1-the-rise-of-the-bedroom-producer/ Audio Interfaces : https://www.nytimes.com/wirecutter/reviews/best-usb-audio-interface/ Sophia Loizou : https://blog.bimm.co.uk/sophia-loizou-women-in-music Tech News: https://www.musicradar.com/news/the-best-daws-the-best-music-production-software-for-pc-and-mac
