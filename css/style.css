@@ -47,13 +47,14 @@ nav h1 {
 }
 
 .center {
-
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
   text-align: center;  
   background-color: white;
   border-left: 3px solid;
   border-right: 3px solid;
 }
 .basecenter {
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
   text-align: center;  
   background-color: white;
   border-left: 3px solid;
@@ -181,7 +182,7 @@ yellow {
     max-width: 1200px;
 }
 
-.thismonthbanner {
+.thismonthbannerai {
   margin-top: 10px;
   border: 3px solid;  
   background: url(/images/usbaudiointerfaces-2x1-.jpg);
@@ -253,14 +254,16 @@ i {
 
 
 footer {
-  max-width: 100%;
-  background: black;
-  position: relative;
-  border-bottom: 1px solid;
+    
+    height: 60px;
+    max-width: 100%;
+    background: black;
+    position: relative;
+    border-bottom: 1px solid;
 }
 
 footer p {
-  font-size: x-small;
+        font-size: x-small;
 }
 
 /*END OF FOOTER AREA STYLING*/
@@ -275,6 +278,7 @@ footer p {
 /*CONTACT FORM STYLING*/
 
 .form-control {
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25) inset, -8px -8px 12px 0 rgba(255, 255, 255, 0.3) inset;
     border: 1px solid;
     width: 450px;
     margin-left: 10px;
@@ -283,6 +287,7 @@ footer p {
 .inputwidth {
     width: 450px;
     text-align: center;
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25) inset, -8px -8px 12px 0 rgba(255, 255, 255, 0.3)inset;
 }
 
 .contact-form {
@@ -297,6 +302,7 @@ footer p {
 }
 
 .comment {
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25) inset, -8px -8px 12px 0 rgba(255, 255, 255, 0.3)inset;
     width: 450px;
     height: 100px;
     padding: 10px;
@@ -304,6 +310,7 @@ footer p {
 }
 
 .subcomment {
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25) inset, -8px -8px 12px 0 rgba(255, 255, 255, 0.3) inset;
     width: 450px;
     height: 124px;
     padding: 10px;
