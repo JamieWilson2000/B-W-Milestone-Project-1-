@@ -1,6 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-![logo](assets/images/the musical wave.png)
+![logo](/images/logo.png)
 
 Milestone Project One Jamie Wilson
 
@@ -14,24 +12,29 @@ A monthly website aimed at musicians young and old, experienced and unskilled, w
 
 Main Page Content:
 
-The page will consist of:
-A main header with logo
-A main banner with a summary of content
-A regular feature "in interview"
-A regular feature "tech news"
-A "this month" feature which would target a different aspect of music technology each month
+The page will consist of:<br>
+A main header with logo<br>
+A main banner with a summary of content<br>
+A regular feature "in interview"<br>
+A regular feature "tech news"<br>
+A "this month" feature which would target a different aspect of music technology each month<br>
 and finally a footer contining social links and copyright/ownership information.
 
 Each element will lead the user to an individual page dedicated to that particular task in hand.
 
-General Typography and styling:
+General Typography and styling:<br>
 The styling that i have decided to go for is a very clean black and white interface.  I have opted for the Oswald font style because after being introduced to it via the learning modules, I have become rather fond of its style and felt it fitted in with the look I was hoping to acheive. I decided to go with a style of text where I refrain from using capitals,I personally like this style but to some I appreciate it can look un-attractive.
 
 Methods used:
 
-**For the zooming animation used in the landing page front image, I refered back to the "Love running" module and used the guidance provided there to acheive the effect. I chose not to alter it other than increase the animation time to 3s because I felt happy with the general look of the effect.**
+For the zooming animation used in the landing page front image, I refered back to the "Love running" module and used the guidance provided there to acheive the effect. I chose not to alter it other than increase the animation time to 3s because I felt happy with the general look of the effect.<br>
 **EDIT: After much deliberation, I decided to remove the animation from the landing page. I felt that the feel was too gimmicky and fought against the look and feel of the site which I wanted to stay clean and crisp.
 
 
 
-Source of images used: Next Big Hit: https://www.digitaldjtips.com/2018/11/how-dance-music-is-made-today-part-1-the-rise-of-the-bedroom-producer/ Audio Interfaces : https://www.nytimes.com/wirecutter/reviews/best-usb-audio-interface/ Sophia Loizou : https://blog.bimm.co.uk/sophia-loizou-women-in-music Tech News: https://www.musicradar.com/news/the-best-daws-the-best-music-production-software-for-pc-and-mac
+Source of images used:<br>
+ Next Big Hit: https://www.digitaldjtips.com/2018/11/how-dance-music-is-made-today-part-1-the-rise-of-the-bedroom-producer/<br>
+ Audio Interfaces : https://www.nytimes.com/wirecutter/reviews/best-usb-audio-interface/<br> 
+ Sophia Loizou : https://blog.bimm.co.uk/sophia-loizou-women-in-music<br> 
+ Tech News: https://www.musicradar.com/news/the-best-daws-the-best-music-production-software-for-pc-and-mac<br>
+ Spotify Logo: https://martechtoday.com/spotify-launches-self-serve-platform-audio-ad-campaigns-204594<br>
