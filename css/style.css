@@ -78,7 +78,7 @@ nav h1 {
 /***********HEADER AND LOGO STYLING END*****/
 
 
-/*FEATURING THIS MONTH STYLING*/
+/********START OF TOP BANNER STYLING*********/
 table {
   margin-left: auto;
   margin-right: auto;
@@ -104,9 +104,9 @@ yellow {
     color: yellow;
 }
 
-/*END OF FEATURING THIS MONTH STYLING*/
+/**********END OF TOP BANNER STYLING***********/
 
-/*THIS IS THE LEFT AND RIGHT SECTION STYLING*/
+/*THIS IS THE IN INTERVIEW AND TECH-NEWS SECTION STYLING*/
 
 .btn {
     color: yellow;
@@ -189,12 +189,97 @@ yellow {
   text-align: center;
   color: gold;
 }
-/*END OF SECOND SECTION STYLING*/
+/*END OF IN INTERVIEW AND TECH-NEWS SECTION STYLING*/
 
+/*START OF CUBASE SECTION STYLING*/
+.wrapper {
+  background-color: rgb(221, 221, 221);
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
+/*hr{
+  border: none;
+}*/
+
+.box {
+  margin: 0 auto;
+  width: 60%;
+  height: 400px;
+  border: 5px solid black;
+}
+.box img{
+    float: left;
+    width: 100%;
+    height:100%;
+}
+.small-left-box {
+  float: left;
+  width: 40%;
+  height: 150px;
+  border: 5px solid black;
+}
+
+.small-right-box {
+  float: right;
+  width: 40%;
+  height: 150px;
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+}
+.text-box {
+  margin: 0 auto;
+  width: 60%;
+  height: 400px;
+  border: 5px solid black;
+}
+
+.text-box p, h1, h5 {
+ padding: 10px;
+ }
+
+.smtext-box {
+  margin: 10px 10px 10px 15px;
+  width: 95%;
+  max-height: 300px;
+  border: 5px solid black;
+  text-align: center;
+  
+}
+
+/*img {
+  float: left;
+  width: 100%;
+  height:100%;
+}*/
+
+.thismonthtopbannertitle {
+    margin-top: 10px;
+    border: 3px solid;  
+    background: url();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100px;
+  }
+
+  .bottombannertitle {
+    margin-top: 10px;
+    margin-bottom: 70px;
+    border: 3px solid;  
+    max-height: 150px;
+    }
+
+    .bottombannertitle img {
+        float: left;
+        width: 100%;
+        height:100%;
+    }
+
+    /*END OF CUBASE SECTION STYLING*/
 /**********************/
 
-/*THIS IS THE THIRD SECTION STYLING*/
+/*THIS IS THE NEXT MONTH SECTION STYLING*/
 
 .month-container {
     margin:auto;
@@ -238,7 +323,7 @@ yellow {
   color: black;
 }
 
-/*THIS IS THE END OF THIRD SECTION STYLING*/
+/*THIS IS THE END OF NEXT MONTH SECTION STYLING*/
 
 
 
@@ -337,7 +422,7 @@ footer p {
     background-color: whitesmoke;
 }
 
-/*THIS IS THE MEET THE ARTIST SECTION STYLING*/
+/*THIS IS THE IN INTERVIEW SECTION STYLING*/
 
 .month-container {
     margin:auto;
@@ -452,7 +537,7 @@ yellow{color:yellow ;}
     color: black;
 }
 
-/*THIS IS THE END OF THE MEET THE ARTIST SECTION STYLING*/
+/*THIS IS THE END OF THE IN INTERVIEW SECTION STYLING*/
 
 /*MAIN ARTICLE STYLING*/
 
@@ -461,16 +546,16 @@ yellow{color:yellow ;}
     border: 2px solid;
 }
 
-/*Spotify page styling*/
+/*****START OF THE SPOTIFY SECTION STYLING****/
 
 
 .row {
   height: auto;
 }
 
-hr{
+/*hr{
   border: none;
-}
+}*/
 
 .coltwo {
   margin-top: 30px;
@@ -497,3 +582,4 @@ gold {
   background-color: black;
   border-radius: 50%;
 }
+/*****END OF THE SPOTIFY SECTION STYLING****/
