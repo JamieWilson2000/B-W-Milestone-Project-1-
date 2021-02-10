@@ -28,67 +28,57 @@ strong {
 nav h1 {
   color: white;
 }
+
+h6 {
+    color: white;
+    border-top: 1px solid white;
+    padding-top:10px;
+    
+}
 /***********SHARED BODY STYLING END*****/
 
 /***********HEADER AND LOGO STYLING*****/
+
+
+
 .left {
-    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
-    text-align: center;
-    background-color: black;
-}
-
-.left2 {
-  text-align: center;
-
-}
-
-.left3 {
-  text-align: center;
-  
+    height: 55px;
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25);
+    text-align: center;  
+    background-color: white;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
 }
 
 .center {
-     box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25);
-    text-align: center;  
-    background-color: white;
-    border-left: 3px solid;
-    border-right: 3px solid;
-}
-.basecenter {
+    height: 55px;
     box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
-  text-align: center;  
-  background-color: white;
-  border-left: 3px solid;
-  border-right: 3px solid;
-  border-bottom: 3px solid;
+    text-align: center;
+    background-color: black;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
 }
 
 .right {
+    height: 55px;
     box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25);
     text-align: center;
     background: black;
     border-left: 3px solid white;
     border-right: 3px solid white;
 }
-
-.right2 {
-  text-align: center;
-}
-
-.right3 {
-  text-align: center;
-}
-
 /***********HEADER AND LOGO STYLING END*****/
 
-
-/********START OF TOP BANNER STYLING*********/
+/********START OF FEATURING THIS MONTH STYLING*********/
 table {
   margin-left: auto;
   margin-right: auto;
   border: 1px solid red;
 }
 td {
+    
   border: 2px solid white;
   text-align: center;
   width: 280px;
@@ -107,8 +97,11 @@ img {
 yellow {
     color: yellow;
 }
+.tohide {
+    display:none;
+}
 
-/**********END OF TOP BANNER STYLING***********/
+/**********END OF FEATURING THIS MONTH STYLING***********/
 
 /*THIS IS THE IN INTERVIEW AND TECH-NEWS SECTION STYLING*/
 
@@ -239,7 +232,7 @@ yellow {
 }
 
 .text-box p, h1, h5 {
- padding: 10px;
+ padding: 0;
  }
 
 .smtext-box {
@@ -338,44 +331,7 @@ yellow {
 
 
 
-/*THIS IS THE FOOTER AREA STYLING*/
 
-.fixed-footer {
-    z-index: 2;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-}
-
-i {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  
-}
-
-.social-links {
-  font-size: 30px;
-  color: white;
-  text-align: center;
-}
-
-
-
-footer {
-    
-    height: 60px;
-    max-width: 100%;
-    background: black;
-    position: relative;
-    border-bottom: 1px solid;
-}
-
-footer p {
-        font-size: x-small;
-}
-
-/*END OF FOOTER AREA STYLING*/
 
 /*MAIN ARTICLE STYLING*/
 
@@ -587,3 +543,67 @@ gold {
   border-radius: 50%;
 }
 /*****END OF THE SPOTIFY SECTION STYLING****/
+
+/*THIS IS THE FOOTER AREA STYLING*/
+
+.fixed-footer {
+    border-top: 3px solid white;
+    z-index: 2;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+i {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  
+}
+
+.social-links {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+
+
+footer {
+    
+    height: 60px;
+    max-width: 100%;
+    background: black;
+    position: relative;
+    border-bottom: 1px solid;
+}
+
+footer p {
+        font-size: x-small;
+}
+
+/*END OF FOOTER AREA STYLING*/
+
+@media screen and (max-width: 500px) {
+    
+    .tohide {
+        display: block;
+    }
+    hr {
+        display:none;
+    }
+    
+    .right {
+    border-top: 3px solid white;
+    }
+    .desktop {
+    display:none;
+    }
+    table td {
+    float:left;
+    height:100%;
+    width: 100%;
+  }
+     
+}
+
