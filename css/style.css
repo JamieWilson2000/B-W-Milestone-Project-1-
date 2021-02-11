@@ -409,10 +409,22 @@ yellow {
     margin:auto;
     text-align: center;
     max-width: 1200px;
+    
 }
 
 .thismonthbannertitle {
     margin-top: 10px;
+    border: 3px solid;  
+    background: url();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100px;
+  }
+
+  .nextmonthbannertitle {
+    margin-top: 10px;
+    margin-bottom: 30px;
     border: 3px solid;  
     background: url();
     background-position: center;
@@ -617,7 +629,7 @@ i {
 
 @media screen and (max-width: 500px) {
     
-    
+/* LANDING PAGE MOBILE STYLINGS*/
     
     .tohide {
         display: block;
@@ -639,7 +651,9 @@ i {
     height:100%;
     width: 100%;
   }
-/*MOBILE STYLING FOR THE CONTACT FORM*/
+  /* END OF LANDING PAGE MOBILE STYLINGS*/
+
+/*CONTACT / SUBMISSION FORM MOBILE STYLINGS*/
   
 .contact-form {
     margin-top: 0;
@@ -668,9 +682,41 @@ i {
 .mob-hide {
     display: none;
 }
-    /*MOBILE STYLING FOR THE CONTACT FORM*/ 
+    /*END OF CONTACT / SUBMISSION FORM MOBILE STYLINGS*/ 
 
-.foot-left{
+    /* IN INTERVIEW MOBILE STYLINGS */
+.heading {
+    max-height: 420px;
+    min-height: 420px;
+    background: -webkit-linear-gradient(rgb(31, 0, 31), white);
+}
+
+.first {
+    order: 3;
+}
+.second {
+    order: 1;
+}
+.third {
+    order: 2;
+}
+.fourth {
+    order: 5;
+}
+.fifth {
+    order: 4;
+}
+.sixth {
+    order: 7;
+}
+.seventh {
+    order: 6;
+}
+/* END OF IN INTERVIEW MOBILE STYLINGS */
+
+/* FOOTER MOBILE STYLINGS */
+
+    .foot-left{
     display: none;
 }
     
