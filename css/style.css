@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
-
+/*CSS CONTENTS:
+SHARED BODY STYLING
+HEADER AND LOGO STYLING
+FEATURING THIS MONTH STYLING
+IN INTERVIEW AND TECHNEWS STYLING
+CUBASE SECTION STYLING
+NEXT MONTH SECTION STYLING
+CONTACT FORM STYLING
+IN INTERVIEW SECTION STYLING
+SPOTIFY SECTION STYLING
+FOOTER SECTION STYLING
+@MEDIA RESPONSIVE STYLING
+*/
 /***********SHARED BODY STYLING*****/
 body {
   font-family: Oswald, sans-serif;
@@ -47,12 +59,13 @@ h6 {
 
 .left {
     height: 55px;
+    width: 100%;
     box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25);
     text-align: center;  
     background-color: white;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
-    border-left: 3px solid black;
+    
 }
 
 .center {
@@ -71,7 +84,7 @@ h6 {
     text-align: center;
     background: black;
     border-left: 3px solid white;
-    border-right: 3px solid white;
+    
 }
 /***********HEADER AND LOGO STYLING END*****/
 
@@ -326,25 +339,24 @@ yellow {
 
 /*THIS IS THE END OF NEXT MONTH SECTION STYLING*/
 
+/*MAIN ARTICLE STYLING POSSIBLY FOR DELETION*/
 
-
-
-
-
-
-
-
-
-
-
-/*MAIN ARTICLE STYLING*/
-
-.main-article {
+/*.main-article {
     min-height: 420px;
     border: 2px solid;
-}
+}*/
+/*MAIN ARTICLE STYLING*/
 
-/*CONTACT FORM STYLING*/
+/*.main-article {
+    min-height: 420px;
+    border: 2px solid;
+}*/
+
+/*CONTACT FORM (CONTACT US & SUBMIT YOUR FORM) STYLING*/
+
+.background {
+    background-color: rgb(129, 183, 26);
+}
 
 .form-control {
     box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25) inset, -8px -8px 12px 0 rgba(255, 255, 255, 0.3) inset;
@@ -381,13 +393,15 @@ yellow {
     background-color: whitesmoke;
 }
 
-.subcomment {
+/*.subcomment {
     box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25) inset, -8px -8px 12px 0 rgba(255, 255, 255, 0.3) inset;
     width: 450px;
-    height: 124px;
+    height: 100px;
     padding: 10px;
     background-color: whitesmoke;
-}
+}*/
+
+/*END OF CONTACT FORM (CONTACT US & SUBMIT YOUR FORM) STYLING*/
 
 /*THIS IS THE IN INTERVIEW SECTION STYLING*/
 
@@ -506,12 +520,7 @@ yellow{color:yellow ;}
 
 /*THIS IS THE END OF THE IN INTERVIEW SECTION STYLING*/
 
-/*MAIN ARTICLE STYLING*/
 
-.main-article {
-    min-height: 420px;
-    border: 2px solid;
-}
 
 /*****START OF THE SPOTIFY SECTION STYLING****/
 
@@ -554,41 +563,56 @@ gold {
 /*THIS IS THE FOOTER AREA STYLING*/
 
 .fixed-footer {
+    clear: both;
     border-top: 3px solid white;
+    background: black;
+    height: 60px;
     z-index: 2;
     width: 100%;
     position: fixed;
     bottom: 0;
 }
 
-i {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  
+.fixed-footer p {
+    /*margin: 20px 30px 0 0;
+    float: right;*/
+    font-size: small;
+    margin-top: 20px;
 }
 
+
+i {
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
 .social-links {
+    
   font-size: 30px;
   color: white;
   text-align: center;
 }
-
-
-
-footer {
+.foot-left {
+    height: 55px;
+    width: 100%;
+    text-align: center;  
+    background-color:black
     
-    height: 60px;
-    max-width: 100%;
+}
+.foot-center {
+    height: 55px;
+    text-align: center;
+    background-color: black;
+    
+}
+.foot-right {
+    height: 55px;
+    text-align: center;
     background: black;
-    position: relative;
-    border-bottom: 1px solid;
+    
 }
-
-footer p {
-        font-size: x-small;
-}
-
 /*END OF FOOTER AREA STYLING*/
 
 @media screen and (max-width: 500px) {
@@ -636,6 +660,21 @@ footer p {
       margin-right: auto;
       width: 90%;
     }
-    /*MOBILE STYLING FOR THE CONTACT FORM*/ 
+.subcomment {
+    margin-top: 20px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
 }
+.mob-hide {
+    display: none;
+}
+    /*MOBILE STYLING FOR THE CONTACT FORM*/ 
+
+.foot-left{
+    display: none;
+}
+    
+
+}
+
 

@@ -12,46 +12,27 @@
 
 <body style="background-color: rgb(129, 183, 26)">
 
-<!--**********HEADER AND LOGO**********-->
+<!----------MAIN HEADER WORKING--------->
 
-<section class="container-fluid">
 
-  <div class="row">
-    <div class="col-4 left">
-      <nav><a href="#"><h1 style="color: blue">submit your track</h1></a></nav>  </div>
-      
-    <div class="col-4 center">
+<div class="row">
+    <div class="col-sm-4 left">
       <nav><a href="index.html"><h1><strong>the</strong> <grey>musical</grey> <strong>note</strong><br></h1></a></nav>
     </div>
-
-       <div class="col-4 right">
-        <nav><a href="contact.html"><h1 >contact us</h1></a></nav></div>
-  </div>    
-
-    <div class="row">
-      <div class="col-4 left2"></div>
-             
-        <div class="col-4 center">
-         <nav><a href="index.html"><h1><grey>the</grey> <strong>musical</strong> <grey>note</grey></h1></a></nav></div>
-
-       <div class="col-4 right2"></div>
-      
+    
+    <div class="col-sm-4 center">
+      <nav><a class="active" href="submission.html"><h1>submit your track</h1></a></nav>  
     </div>
+    
+    <div class="col-sm-4 right">
+       <nav><a href="contact.html"><h1>contact us</h1></a></nav>
+    </div>
+</div>
 
-  <div class="row">
-    <div class="col-4 left2"></div>
-           
-     <div class="col-4 basecenter">
-       <nav><a href="index.html"><h1><strong>the</strong> <grey>musical</grey> <strong>note</strong></h1></a></nav></div>
+<!-------END OF MAIN HEADER WORKING-------->
 
-      <div class="col-4 right2"></div>
-      
-  </div>
-</section>
-<!--**********END-HEADER AND LOGO**********-->
 
-<hr>
-
+<!----------SUBMIT YOUR TRACK FORM WORKING--------->
 <section class="contact-form">
     <div class="container">
         <form> 
@@ -64,7 +45,7 @@
             <hr>
            
             <form action="/form/submit" method="POST" >
-            <textarea class="subcomment" placeholder="tell us a little about the track..."></textarea><br>
+            <textarea class="subcomment comment" placeholder="tell us a little about the track..."></textarea><br>
             
             <input type="submit" name="submit" value="send">
             
@@ -72,22 +53,32 @@
         </form>
     </div>
 </section>
-
-<hr>
-<hr>
-<hr>
-<hr>
+<!----------SUBMIT YOUR TRACK FORM WORKING--------->
 
 <!--**********FOOTER STYLING**********-->
 
 <footer class="fixed-footer">
   <div class="social-links">
     
-    <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook"></i></a>
-    <a href="https://www.twitter.com/" target="_blank"> <i class="fa fa-twitter"></i></a>
-    <a href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram"></i></a>
-    <a href="https://www.soundcloud.com/" target="_blank"> <i class="fa fa-soundcloud"></i></a>
-  <p>February Issue 121 Wilson Publishing 2021</p>
+    <div class="row">
+        <div class="col-sm-4 foot-left">
+          </div>
+    
+            <div class="col-sm-4 foot-center">
+                <nav>
+                    <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook"></i></a>
+                    <a href="https://www.twitter.com/" target="_blank"> <i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram"></i></a>
+                    <a href="https://www.soundcloud.com/" target="_blank"> <i class="fa fa-soundcloud"></i></a>
+                </nav>  
+            </div>
+            
+        <div class="col-sm-4 foot-right">
+       <p class="mob-hide">February Issue 121 Wilson Publishing 2021</p>
+    </div>
+</div>
+    
+  
   </div>
 </footer>
 

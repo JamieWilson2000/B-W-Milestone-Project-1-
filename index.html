@@ -10,10 +10,9 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
   </head>
 
-<body>
+<body class="container-fluid">
 
 
-<hr>
 <!----------MAIN HEADER WORKING--------->
 
 <div class="row">
@@ -26,7 +25,8 @@
     </div>
     
     <div class="col-md-4 right">
-       <nav><a href="contact.html"><h1>contact us</h1></a></nav></div>
+       <nav><a href="contact.html"><h1>contact us</h1></a></nav>
+    </div>
 </div>
 
 <!-------END OF MAIN HEADER WORKING-------->
@@ -35,7 +35,7 @@
 
 <!--FEATURING THIS MONTH-->
 
- <section> 
+<section> 
     <table>
         <tr>
           <td><nav><a href="homepro.html"><img src="images/img1.png" alt="studio"><h6>what you need to put out a great track!</h6></a></nav></td>
@@ -55,7 +55,7 @@
 <section class="desktop">
     
     <div class="row">
-        <!--<a href="artist.html"></a>-->
+        <a href="artist.html"></a>
         <div class="col-md-6 leftarticle">
             <a class="btn btn-primary" href="artist.html" role="button">
             <label class="labelstyle">in interview</label><br>
@@ -65,15 +65,13 @@
     
 <!--RIGHT ARTICLE CONTENT-->
         <div class="col-md-6">
-           <div class="row bg-color-name-title">
-          <div class="col-md-12 rightarticle">
-              <a class="btn btn-primary labelcolor" href="https://www.musicradar.com/news" target="_blank" role="button">once again our good friends at Music Radar are on hand to bring us the latest<br>
-                <span class="labelcolor1">tech news</span></a>
-              
-          
+            <div class="row bg-color-name-title">
+                <div class="col-md-12 rightarticle">
+                    <a class="btn btn-primary labelcolor" href="https://www.musicradar.com/news" target="_blank" role="button">once again our good friends at Music Radar are on hand to bring us the latest<br>
+                    <span class="labelcolor1">tech news</span></a>
+                </div>
+            </div>
         </div>
-      </div>
-  </div>
     </div>
 </section>
 <!--END OF ARTIST AND TECHNEWS SECTION-->
@@ -103,22 +101,36 @@
 
 
 
-<!--**********FOOTER SECTION**********-->
+<!--**********FOOTER STYLING**********-->
 
 <footer class="fixed-footer">
   <div class="social-links">
     
-    <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook"></i></a>
-    <a href="https://www.twitter.com/" target="_blank"> <i class="fa fa-twitter"></i></a>
-    <a href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram"></i></a>
-    <a href="https://www.soundcloud.com/" target="_blank"> <i class="fa fa-soundcloud"></i></a>
-  <p>February Issue 121 Wilson Publishing 2021</p>
+    <div class="row">
+        <div class="col-sm-4 foot-left">
+          </div>
+    
+            <div class="col-sm-4 foot-center">
+                <nav>
+                    <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook"></i></a>
+                    <a href="https://www.twitter.com/" target="_blank"> <i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram"></i></a>
+                    <a href="https://www.soundcloud.com/" target="_blank"> <i class="fa fa-soundcloud"></i></a>
+                </nav>  
+            </div>
+            
+        <div class="col-sm-4 foot-right">
+       <p class="mob-hide">February Issue 121 Wilson Publishing 2021</p>
+    </div>
+</div>
+    
+  
   </div>
 </footer>
 
-<!--**********END FOOTER SECTION**********-->
+<!--**********END FOOTER STYLING**********-->
 
-  
+   </body>
     <script src="script.js"></script>
-  </body>
+ 
 </html>
