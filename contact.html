@@ -10,50 +10,31 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
   </head>
 
-<body>
+<body class="container-fluid">
 
-<!--**********HEADER AND LOGO**********-->
+<!----------MAIN HEADER WORKING--------->
 
-<section class="container-fluid">
-
-  <div class="row">
-    <div class="col-4 left">
-      <nav><a href="submission.html"><h1>submit your track</h1></a></nav>  </div>
-      
-    <div class="col-4 center">
+<div class="row">
+    <div class="col-md-4 left">
       <nav><a href="index.html"><h1><strong>the</strong> <grey>musical</grey> <strong>note</strong><br></h1></a></nav>
     </div>
-
-       <div class="col-4 right">
-        <nav><a href=""><h1 style="color: blue">contact us</h1></a></nav></div>
-  </div>    
-
-    <div class="row">
-      <div class="col-4 left2"></div>
-             
-        <div class="col-4 center">
-         <nav><a href="index.html"><h1><grey>the</grey> <strong>musical</strong> <grey>note</grey></h1></a></nav></div>
-
-       <div class="col-4 right2"></div>
-      
+    
+    <div class="col-md-4 center">
+      <nav><a href="submission.html"><h1>submit your track</h1></a></nav>  
     </div>
+    
+    <div class="col-md-4 right">
+       <nav><a class="active" href="#"><h1>contact us</h1></a></nav></div>
+</div>
 
-  <div class="row">
-    <div class="col-4 left2"></div>
-           
-     <div class="col-4 basecenter">
-       <nav><a href="index.html"><h1><strong>the</strong> <grey>musical</grey> <strong>note</strong></h1></a></nav></div>
-
-      <div class="col-4 right2"></div>
-      
-  </div>
-</section>
-<!--**********END-HEADER AND LOGO**********-->
+<!-------END OF MAIN HEADER WORKING-------->
 
 <hr>
 
+<!--CONTACT FORM WORKING-->
+
 <section class="contact-form">
-    <div class="container">
+    <div class="form">
         <form>
             <label for="fname">name</label><br>
             <input type="text" id="fname" name="name" class="inputwidth"><br>
@@ -70,20 +51,19 @@
                         <option>complaints</option>
                     </select>
             </div>
+            <hr>
             <form action="/form/submit" method="POST" >
+                <hr>
             <textarea class="comment" placeholder="leave your comment here..."></textarea><br>
-            
+            <hr>
             <input type="submit" name="submit" value="send">
             
             </form>
         </form>
     </div>
 </section>
+<!-- END OF CONTACT FORM WORKING-->
 
-<hr>
-<hr>
-<hr>
-<hr>
 
 <!--**********FOOTER STYLING**********-->
 

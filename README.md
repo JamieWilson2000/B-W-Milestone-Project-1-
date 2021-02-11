@@ -38,3 +38,4 @@ Source of images used:<br>
  Sophia Loizou : https://blog.bimm.co.uk/sophia-loizou-women-in-music<br> 
  Tech News: https://www.musicradar.com/news/the-best-daws-the-best-music-production-software-for-pc-and-mac<br>
  Spotify Logo: https://martechtoday.com/spotify-launches-self-serve-platform-audio-ad-campaigns-204594<br>
+Image used for the contact us/submit your track: https://www.windmilllanerecording.com/wp-content/uploads/2016/11/blog-article-image.png<br>
