@@ -15,7 +15,7 @@ FOOTER SECTION STYLING
 /***********SHARED BODY STYLING*****/
 body {
   font-family: Oswald, sans-serif;
-  
+  overflow-x: hidden;
   padding-bottom: 40px;
 }
 
@@ -577,8 +577,16 @@ yellow{color:yellow ;}
     background-size: cover;
     min-height: 340px;
 }
+.cubase3 img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 340px;
+    min-width: 100%
+}
 
 .videowrapper {
+    
     padding-bottom: 56.25%;
     height: 0;
 }
@@ -771,10 +779,46 @@ i {
 }
 /* END OF IN INTERVIEW MOBILE STYLINGS */
 
-.cubheading {
-    min-height: 380px;
-    max-height: 380px;
+/* CUBASE REVIEW MOBILE STYLINGS */
+
+.cubase {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: auto;
 }
+.cubase2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: auto;
+}
+.cubase3 {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: auto;
+}
+
+
+.cubheading {
+    border-left: 3px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    min-height: 420px;
+    max-height: 420px;
+}
+.mdcubheading {
+    min-height: 450px;
+    max-height: 450px;
+}
+.lgcubheading {
+    min-height:720px;
+    max-height:720px;
+}
+
+iframe {
+  min-width: 100%;
+}
+
+/* END OF CUBASE REVIEW MOBILE STYLINGS */
 
 /* FOOTER MOBILE STYLINGS */
 
