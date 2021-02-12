@@ -754,7 +754,47 @@ i {
     max-height: 420px;
     min-height: 420px;
     background: -webkit-linear-gradient(rgb(31, 0, 31), white);
+    border-left: 3px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
 }
+.lgheading {
+    max-height: 460px;
+    min-height: 460px;
+    background: -webkit-linear-gradient(rgb(31, 0, 31), white);
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.smheading {
+    max-height: 350px;
+    min-height: 350px;
+}
+.thismonthbanner {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* .heading {
+    margin-left: 20px;
+    margin-right: 20px;
+    min-height: 470px;
+    max-height: 470px; */
+}
+.thismonthbanner2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.thismonthbanner3 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.thismonthbanner4 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 
 .first {
     order: 3;
