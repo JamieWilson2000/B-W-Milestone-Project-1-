@@ -609,7 +609,13 @@ yellow{color:yellow ;}
 /*hr{
   border: none;
 }*/
-
+.colunga {
+    margin-top: 10px;
+} 
+.lwright {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
 .coltwo {
   margin-top: 30px;
   text-align:left;
@@ -691,6 +697,15 @@ i {
     
 }
 /*END OF FOOTER AREA STYLING*/
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 500px) {
     
@@ -780,8 +795,8 @@ i {
     margin-left: 20px;
     margin-right: 20px;
     min-height: 470px;
-    max-height: 470px; */
-}
+    max-height: 470px; 
+}*/
 .thismonthbanner2 {
     margin-left: 20px;
     margin-right: 20px;
@@ -794,7 +809,6 @@ i {
     margin-left: 20px;
     margin-right: 20px;
 }
-
 
 .first {
     order: 3;
@@ -819,7 +833,7 @@ i {
 }
 /* END OF IN INTERVIEW MOBILE STYLINGS */
 
-/* CUBASE REVIEW MOBILE STYLINGS */
+/* CUBASE11 REVIEW MOBILE STYLINGS */
 
 .cubase {
     margin-left: 20px;
@@ -836,8 +850,6 @@ i {
     margin-right: 20px;
     height: auto;
 }
-
-
 .cubheading {
     border-left: 3px solid black;
     margin-left: 20px;
@@ -846,8 +858,8 @@ i {
     max-height: 420px;
 }
 .mdcubheading {
-    min-height: 450px;
-    max-height: 450px;
+    min-height: 460px;
+    max-height: 460px;
 }
 .lgcubheading {
     min-height:720px;
@@ -860,13 +872,55 @@ iframe {
 
 /* END OF CUBASE REVIEW MOBILE STYLINGS */
 
+/* SPOTIFY MOBILE STYLINGS */
+
+.smgap {
+    margin-top: 10px;
+}
+.foggy {
+    margin-left: 10px;
+    
+}
+
+.lwright2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px solid black;
+}
+.text-square {
+     margin-left: 10px;
+    margin-right: 10px;
+    border: 3px solid black;
+}
+
+.spotfirst {
+    order: 2;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px solid black;
+    
+}
+.spotsecond {
+    order: 1;
+    margin-top: 10px;
+ }/*BeijaFlotrack */
+.spotthird {
+    order: 4;
+    margin-bottom: 40px;
+}
+.spotfourth {
+    order: 3;
+    margin-top: 10px;
+}/*LisaWrighttrack*/
+
+/* END OF SPOTIFY MOBILE STYLINGS */
+
 /* FOOTER MOBILE STYLINGS */
 
-    .foot-left{
+.foot-left{
     display: none;
 }
-    
+} /*Curly bracket for @media*/
 
-}
 
 
