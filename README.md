@@ -43,3 +43,4 @@ Image used for the contact us/submit your track: https://www.windmilllanerecordi
 Sources of guidance, information, and general help:<br>
 Code Institute: www.codeinstitute.net<br>
 Stack Overflow: www.stackoverflow.com<br>
+W3Schools: www.w3schools.com<br>

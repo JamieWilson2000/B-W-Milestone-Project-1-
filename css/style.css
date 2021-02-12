@@ -443,6 +443,8 @@ yellow {
     min-height: 340px;
 }
 
+
+
 .heading {
     margin-top: 10px;
     border-top: 3px solid black;
@@ -454,6 +456,8 @@ yellow {
     background: -webkit-linear-gradient(rgb(31, 0, 31), white, rgb(31, 0, 31));
 }
 
+
+
 .thismonthbanner2 {
     margin-top: 10px;
     border: 3px solid;  
@@ -463,6 +467,8 @@ yellow {
     background-size: cover;
     min-height: 340px;
 }
+
+
 
 .heading2 {
     margin-top: 10px;
@@ -495,8 +501,6 @@ yellow {
     min-height: 340px;
 }
 
-
-
 .name {  
 
     font-weight: 100;
@@ -521,17 +525,70 @@ yellow {
 }
 yellow{color:yellow ;}
 
-.subject {  
+/* .subject {  
     
     font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 140px;
     color: black;
-}
+} */
 
 /*THIS IS THE END OF THE IN INTERVIEW SECTION STYLING*/
 
+/* THIS IS THE CUBASE REVIEW SECTION */
+.cubase {
+    margin-top: 10px;
+    border: 3px solid;  
+    background: url(/images/img2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 340px;
+}
+
+.cubheading {
+    margin-top: 10px;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    min-height: 340px;
+    max-height: 340px;
+    padding-right:35px;
+    background: -webkit-linear-gradient(grey, white, grey);
+}
+
+.cubase2 {
+    margin-top: 10px;
+    border: 3px solid;  
+    background: url(/images/img11.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 340px;
+}
+
+.cubase3 {
+    margin-top: 10px;
+    border: 3px solid;  
+    background: url(/images/img12.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 340px;
+}
+
+.videowrapper {
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 
 /*****START OF THE SPOTIFY SECTION STYLING****/
@@ -713,6 +770,11 @@ i {
     order: 6;
 }
 /* END OF IN INTERVIEW MOBILE STYLINGS */
+
+.cubheading {
+    min-height: 380px;
+    max-height: 380px;
+}
 
 /* FOOTER MOBILE STYLINGS */
 
