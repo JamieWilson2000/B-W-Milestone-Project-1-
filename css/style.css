@@ -717,6 +717,19 @@ i {
     hr {
         display:none;
     }
+    table {
+        margin-left: -10px;
+        margin-right: -10px;
+       
+    }
+
+    table img {
+        height: 200px;
+    }
+    .foot-center {
+       left: 0px;
+       right: 15px;
+    }
     
     .right {
     border-top: 3px solid white;
@@ -879,9 +892,7 @@ iframe {
 }
 .foggy {
     margin-left: 10px;
-    
 }
-
 .lwright2 {
     margin-left: 10px;
     margin-right: 10px;
@@ -903,7 +914,7 @@ iframe {
 .spotsecond {
     order: 1;
     margin-top: 10px;
- }/*BeijaFlotrack */
+ }
 .spotthird {
     order: 4;
     margin-bottom: 40px;
@@ -911,7 +922,7 @@ iframe {
 .spotfourth {
     order: 3;
     margin-top: 10px;
-}/*LisaWrighttrack*/
+}
 
 /* END OF SPOTIFY MOBILE STYLINGS */
 

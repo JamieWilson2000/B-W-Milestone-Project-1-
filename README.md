@@ -8,7 +8,12 @@ As a hobbyist music composer/producer I am constantly scrolling through the inte
 
 The basis of the idea:
 
-A monthly website aimed at musicians young and old, experienced and unskilled, with the aim to educate and inform those who have an interest in creating music. I have planned and laid out a site which, in theory, would be easily updateable and expandable on a monthly basis so as to keep a relevant stream of fresh, interesting and accurate content being delivered to the user. It is with this in mind that I feel, as someone who would personally be interested in a site like this, that the finished product will give the user access to relevant, interesting news, advice and reviews, and an opportunity to have their own music featured on the site.
+A monthly website aimed at musicians young and old, experienced and unskilled, with the aim to educate and inform those 
+who have an interest in creating music. Inspired by a website I visit often (MusicRadar.com) I have planned and laid out a 
+site which, in theory, would be easily updateable and expandable on a monthly basis so as to keep a relevant stream of 
+fresh, interesting and accurate content being delivered to the user. It is with this in mind that I feel, as someone who 
+would personally be interested in a site like this, that the finished product will give the user access to relevant, 
+interesting news, advice and reviews, and an opportunity to have their own music featured on the site.
 
 Main Page Content:
 
@@ -23,7 +28,10 @@ and finally a footer contining social links and copyright/ownership information.
 Each element will lead the user to an individual page dedicated to that particular task in hand.
 
 General Typography and styling:<br>
-The styling that i have decided to go for is a very clean black and white interface.  I have opted for the Oswald font style because after being introduced to it via the learning modules, I have become rather fond of its style and felt it fitted in with the look I was hoping to acheive. I decided to go with a style of text where I refrain from using capitals,I personally like this style but to some I appreciate it can look un-attractive.
+The styling that i have decided to go for is a very clean black and white interface.  I have opted for the Oswald font 
+style because after being introduced to it via the learning modules, I have become rather fond of its style and felt it 
+fitted in with the look I was hoping to acheive. I decided to go with a style of text where I refrain from using capitals,
+I personally like this style but to some I appreciate it can look un-attractive.
 
 Methods used:
 
