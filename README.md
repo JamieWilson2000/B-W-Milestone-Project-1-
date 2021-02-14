@@ -38,6 +38,10 @@ Methods used:
 For the zooming animation used in the landing page front image, I refered back to the "Love running" module and used the guidance provided there to acheive the effect. I chose not to alter it other than increase the animation time to 3s because I felt happy with the general look of the effect.<br>
 **EDIT: After much deliberation, I decided to remove the animation from the landing page. I felt that the feel was too gimmicky and fought against the look and feel of the site which I wanted to stay clean and crisp.
 
+Site layout in more detail.
+
+<img src="" alt="landing page">
+
 
 
 Source of images used:<br>
