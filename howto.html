@@ -32,7 +32,7 @@
 <!-------END OF MAIN HEADER WORKING-------->
 <style>
     .homestudioback {
-        background: url("images/img1.png");
+        background: url("images/studio.jpg");
         position: relative;
         background-repeat: no-repeat;
         background-size: cover;
@@ -45,32 +45,106 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
+    
     .cell {
         flex: 0 0 5%;
         height: 50px;
         margin-bottom: 5px;
-        border: 1px solid black;
-        
+        /* border: 1px solid black; */
+    }
+    
+    button h4 {
+        color: white;
+    }
+    a {
+        color: rgb(147, 147, 243);
     }
     /* .cell:nth-child(3n) {
         background-color: #f00;
     } */
 </style>
+
+
 <div class="grid">
     <div class="cell"></div>
     
 </div>
 <div class="grid">
-    <div class="cell"></div>
+    <div class="cell">
+        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">PC / Screens</button>
+
+        <div id="id01" class="w3-modal">
+            <div class="w3-modal-content w3-animate-top w3-card-4">
+            <header class="w3-container w3-black"> 
+                <span onclick="document.getElementById('id01').style.display='none'" 
+                class="w3-button w3-display-topright">&times;</span>
+                <h2>PC / Screens</h2>
+            </header>
+            <div class="w3-container">
+                <p>One of the biggest concerns that put people off of entering into the world of music technology is that 
+                    they haven't a big powerful computer, or the money to invest in one. In actual fact this is a very common
+                    mis-conception. Many of the PC's sold today, off the shelf, are capable of running all of the digital
+                    audio workstations. The specs of nearly all of todays most updated DAWs (digital audio workstation) 
+                    actually require nothing overly special! A quad-core processor (preferred), 8gb Ram (very common), 
+                    an SSD drive (becoming the normal nowadays), and if possible, a dedicated graphics card (again nothing
+                    out of the ordinary!). Your sound will be handled by your Audio Interface but again when starting off,
+                    the on-board soundcards can work ok when used with an ASIO driver. Most of the DAW's of today have 
+                    a limited trial period so if in doubt, download one, have a play for a couple of weeks and you'll 
+                    soon know if your PC is starting to struggle!!
+                </p>
+                <p>A preference that most music producers have is for a multi screen setup, normally one screen for your 
+                    arrangement page, and another for your mixer / rack page. Although you will see this in nearly every
+                 studio picture or film, this is not a necessity. All DAW's come as a one screen application and work 
+                perfectly well on one screen. As your expertise grows, then sure, invest in another screen but certainly 
+            don't be worrying about it at this stage!  </p>
+            </div>
+            <footer class="w3-container w3-black">
+                <button class="w3-button w3-right w3-black" onclick="document.getElementById('id01').style.display='none'"><h4>Close</h4></button>
+            </footer>
+            </div>
+        </div>
+    </div><!--PC Modal buttons-->
 </div>
 <div class="grid">
     <div class="cell"></div>
     <div class="cell"></div>
     <div class="cell"></div>
-    <div class="cell styling">Microphones</div>
     <div class="cell"></div>
-    <div class="cell styling"><h4>Monitors</h4></div>
     <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell">
+        <button onclick="document.getElementById('id05').style.display='block'" class="w3-button w3-black">Digital Audio Workstations</button>
+
+        <div id="id05" class="w3-modal">
+            <div class="w3-modal-content w3-animate-top w3-card-4">
+            <header class="w3-container w3-black"> 
+                <span onclick="document.getElementById('id05').style.display='none'" 
+                class="w3-button w3-display-topright">&times;</span>
+                <h2>Digital Audio Workstations (DAW's)</h2>
+            </header>
+            <div class="w3-container">
+                <p>So you have the computer sorted but what to run on it? All producers now have their favorite DAW, Digital Audio Workstation,
+                    and as with every other aspect of putting together a home studio, its all about trying products out and seeing which fit your 
+                    budget and your requirements. Those producing electronic music can favour <a href="https://www.image-line.com/" target="_blank">
+                    FL Studio</a>, film and tv music producers can favour <a href="https://new.steinberg.net/cubase/" target="_blank">Cubase</a>, 
+                    whilst those into experimenting with creating new sounds and textures seem to gravitate towards <a href="https://www.ableton.com/en/"
+                     target="_blank">Ableton</a>. The list goes on and on, and as always there is a DAW to suit every budget. FL Studio requires a
+                      one off payment for life, Cockos Reaper have a license for $60 for approximately two version upgrades which is an excellent 
+                      deal, the price goes up for other DAW's and requires an upgrade fee for each major update which again is optional.
+                </p>
+                <p>There are many free options out there too so be sure to check the internet for free workstations (not cracked versions though!!),
+                    CakeWalk by Bandlab is 100% free and only a few years ago would have set you back a few hundred bucks. If in doubt in making 
+                your decision, consult social media. Every DAW has a dedicated online presence of fellow users who are more than happy to aid and 
+            entice you into their world. Nearly all of the paid DAW's offer a 30 day trial period so the option is there to take them all for a spin"</p>
+            </div>
+            <footer class="w3-container w3-black">
+                <h4><a href="https://www.musicradar.com/news/the-best-daws-the-best-music-production-software-for-pc-and-mac" target="_blank">
+                Check out the best DAW's of 2021</a> with our good friends at Music Radar</h4>
+                <button class="w3-button w3-right w3-black" onclick="document.getElementById('id05').style.display='none'"><h4>Close</h4></button>
+            </footer>
+            </div>
+        </div>
+    </div><!--DAWs Modal buttons-->
     <div class="cell"></div>
     <div class="cell"></div>
     <div class="cell"></div>
@@ -90,25 +164,14 @@
 <div class="grid">
     <div class="cell"></div>
     <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell styling"><h4>Screens</h4></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
     <div class="cell">
-        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Studio Monitors</button>
+        <div class="cell">
+        <button onclick="document.getElementById('id02').style.display='block'" class="w3-button w3-black">Studio Monitors</button>
 
-        <div id="id01" class="w3-modal">
+        <div id="id02" class="w3-modal">
             <div class="w3-modal-content w3-animate-top w3-card-4">
-            <header class="w3-container w3-teal"> 
-                <span onclick="document.getElementById('id01').style.display='none'" 
+            <header class="w3-container w3-black"> 
+                <span onclick="document.getElementById('id02').style.display='none'" 
                 class="w3-button w3-display-topright">&times;</span>
                 <h2>Studio Monitors</h2>
             </header>
@@ -122,28 +185,123 @@
                      floor coverings, all to catch those pesky bouncing frequencies, and then re-evaluate what's left of the budget 
                      and purchase the best you can afford with the balance. You can achieve more with a cheap set of monitors and a well 
                      treated room than you can with an expensive set and clean reflective walls! <br>
-                     
-
                 </p>
-                <p>Some text..</p>
+                <p>Other factors you need to consider are what type and size of speaker. Do you need passive speakers (where the 
+                    audio will be handled by a mixing desk and send the signal out to un-powered speakers) or active speakers (that 
+                    take the signal direct from the interface and process the sound direct.) The size of speaker can be down to preferance 
+                    and you might be tempted to think the larger the better but if your monitors are too loud for the room you're working 
+                    in then this could distort the overall sound quality and in essence, your judgement whilst mixing.  </p>
             </div>
-            <footer class="w3-container w3-teal">
-                <p>Modal Footer</p>
+            <footer class="w3-container w3-black">
+                <h4>Brands you should consider: <a href="https://www.krkmusic.com/" target="_blank">KRK</a> / 
+                                                <a href="https://mackie.com/products/cr-x-creative-reference-multimedia-monitors" target="_blank">Mackie</a> / 
+                                                <a href="https://www.tannoy.com/catalog.html?catalog=Category&category=C-TANNOY-LOUDSPEAKERS-STUDIOMONITORS" target="_blank">Tannoy</a> / 
+                                                <a href="https://www.genelec.com/studio-monitors" target="_blank">Genelec</a> / 
+                                                <a href="https://m-audio.com/products/browse/category/reference-monitors" target="_blank">M-Audio</a>
+                                                <button class="w3-button w3-right w3-black" onclick="document.getElementById('id02').style.display='none'"><h4>Close</h4></button></h4>
             </footer>
             </div>
         </div>
+        </div><!--Monitor Modal buttons-->
+    </div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell">
+        <button onclick="document.getElementById('id07').style.display='block'" class="w3-button w3-black">Studio Monitors</button>
+
+        <div id="id07" class="w3-modal">
+            <div class="w3-modal-content w3-animate-top w3-card-4">
+            <header class="w3-container w3-black"> 
+                <span onclick="document.getElementById('id07').style.display='none'" 
+                class="w3-button w3-display-topright">&times;</span>
+                <h2>Studio Monitors</h2>
+            </header>
+            <div class="w3-container">
+                <p>These are considered to be one of the most important elements in your home studio. Costs range from a modest price
+                    (€50 - €100) all the way up into the thousands! Of course, one element to take into consideration is the room itself.
+                    Its pointless spending €1500 on a set of excellent studio monitors and placing them in a room with no acoustic
+                    treatment on the walls at all. Sure, the power might be there, and to your ears they might sound good, but you won't get
+                    a clear representation of how your mix will translate on other systems and environments.  Experts would advise that
+                    a good rule of thumb would be to treat your room first, acoustic panels on the walls, bass traps in the corners, soft
+                     floor coverings, all to catch those pesky bouncing frequencies, and then re-evaluate what's left of the budget 
+                     and purchase the best you can afford with the balance. You can achieve more with a cheap set of monitors and a well 
+                     treated room than you can with an expensive set and clean reflective walls! <br>
+                </p>
+                <p>Other factors you need to consider are what type and size of speaker. Do you need passive speakers (where the 
+                    audio will be handled by a mixing desk and send the signal out to un-powered speakers) or active speakers (that 
+                    take the signal direct from the interface and process the sound direct.) The size of speaker can be down to preferance 
+                    and you might be tempted to think the larger the better but if your monitors are too loud for the room you're working 
+                    in then this could distort the overall sound quality and in essence, your judgement whilst mixing.  </p>
+            </div>
+            <footer class="w3-container w3-black">
+                <h4>Brands you should consider: <a href="https://www.krkmusic.com/" target="_blank">KRK</a> / 
+                                                <a href="https://mackie.com/products/cr-x-creative-reference-multimedia-monitors" target="_blank">Mackie</a> / 
+                                                <a href="https://www.tannoy.com/catalog.html?catalog=Category&category=C-TANNOY-LOUDSPEAKERS-STUDIOMONITORS" target="_blank">Tannoy</a> / 
+                                                <a href="https://www.genelec.com/studio-monitors" target="_blank">Genelec</a> / 
+                                                <a href="https://m-audio.com/products/browse/category/reference-monitors" target="_blank">M-Audio</a>
+                                                <button class="w3-button w3-right w3-black" onclick="document.getElementById('id07').style.display='none'"><h4>Close</h4></button></h4>
+            </footer>
+            </div>
         </div>
+    </div><!--Monitor Modal Buttons-->
     
     <div class="cell"></div>
     <div class="cell"></div>
 </div>
 
-</div>
+
 <div class="grid">
     <div class="cell"></div>
 </div>
 <div class="grid">
     <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell">
+        <button onclick="document.getElementById('id04').style.display='block'" class="w3-button w3-black">Audio Interfaces</button>
+
+        <div id="id04" class="w3-modal">
+            <div class="w3-modal-content w3-animate-top w3-card-4">
+            <header class="w3-container w3-black"> 
+                <span onclick="document.getElementById('id04').style.display='none'" 
+                class="w3-button w3-display-topright">&times;</span>
+                <h2>Audio Interfaces</h2>
+            </header>
+            <div class="w3-container">
+                <p>So how does the whole process work? Well, in short, the computer reads MIDI (Musical Instrument Digital Interface) notes and 
+                    translates the information into an audible sound. This is the job of your Audio Interface. A basic interface will handle 
+                    translating data into sound and will probably have a midi in/out/thru connection to recieve messages from external hardware, ie
+                     synths etc. Moving up from that the interface will do all of the above plus it might now have a XLR input for the use of analog 
+                     microphones or electro-acoustic instruments. On the back there will likely be stereo out ports for connecting to reference 
+                     monitors and moving up from that, they will feature maybe two outputs for connecting two sets of reference monitors. 
+                </p>
+                <p>As with every aspect of setting up a home studio, it all comes down to your requirements. A singer/songwriter will likely 
+                    manage with a two input / two output interface. This gives the artist an input for a guitar/piano and an input for his vocal,
+                 perfect! A band however will maybe suit an eight input / two output interface. So think about what your artistic preferences
+                 are, what will you be looking to create and choose appropriately.  </p>
+            </div>
+            <footer class="w3-container w3-black">
+                <h4>Check out these Interfaces: <a href="https://focusrite.com/en/usb-audio-interface/scarlett/scarlett-2i2" target="_blank">Focusrite 2i2</a> / 
+                                                <a href="https://m-audio.com/products/browse/category/usb-audio-and-midi-interfaces" target="_blank">M-Audio Interfaces</a> / 
+                                                <a href="https://audient.com/products/audio-interfaces/id4/overview/" target="_blank">Audient iD4</a> 
+                                                <button class="w3-button w3-right w3-black" onclick="document.getElementById('id04').style.display='none'"><h4>Close</h4></button></h4>
+            </footer>
+            </div>
+        </div>
+    </div><!--Audio Interface Modal Buttons-->
+    
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+     
 </div>
 <div class="grid">
     <div class="cell" ></div>
@@ -153,7 +311,6 @@
     <div class="cell"></div>
     <div class="cell"></div>
     <div class="cell"></div>
-    <div class="cell styling">Audio Interface</div>
     <div class="cell"></div>
     <div class="cell"></div>
     <div class="cell"></div>
@@ -164,11 +321,45 @@
     <div class="cell"></div>
     <div class="cell"></div>
     <div class="cell"></div>
-    <div class="cell"></div>
+    <div class="cell">
+        <button onclick="document.getElementById('id06').style.display='block'" class="w3-button w3-black">Other Equipment</button>
+
+        <div id="id06" class="w3-modal">
+            <div class="w3-modal-content w3-animate-top w3-card-4">
+            <header class="w3-container w3-black"> 
+                <span onclick="document.getElementById('id06').style.display='none'" 
+                class="w3-button w3-display-topright">&times;</span>
+                <h2>Other pieces of equipment you might need</h2>
+            </header>
+            <div class="w3-container">
+                <p>Daw's are great for working "inside the box" but sometimes you need something a little extra in the pot to make the track that 
+                    little bit special. Alongside and working within the software are programs called VST (Virtual Studio Technology) plugins. 
+                    These come in the form of virtual instruments, audio effects, MIDI effects, video players, all designed to add to your 
+                    arsenal of musical weapons. There are literally hundreds of thousands of these programs, ranging from free to thousands of pounds, 
+                    some are in-valuable, some are completely useless. Because they're created by third party software houses, compatability can be 
+                    troublesome at times. You may find that firing up a Reverb plug-in can slow down the program or cause clipping in the audio for 
+                    no apparent reason, it's trial and error. However, all DAWS come with their own bank of plug-ins which run seamlessly within 
+                    their own environment so choosing a VST is an option rather than a necessity.
+                </p>
+                <p>Microphones are another investment you might be interested in making. As always, you start at a budget range and run through into 
+                    the thousands. There are various types of mics as explained <a href="https://www.musicradar.com/news/types-of-microphones-and-how-to-use-them"
+                     target="_blank">here</a> by our friends at Music Radar, and again it's a matter of sitting down and thinking what your needs are. 
+                    The most famous of dynamic microphones would be the <a href="https://www.shure.com/en-US/products/microphones/sm58" target="_blank">
+                    Shure SM58</a>. This is used worldwide on every stage, even in the Whitehouse so I think it's safe to say, it's a pretty good place
+                to start! </p>
+            </div>
+            <footer class="w3-container w3-black">
+                
+                <button class="w3-button w3-right w3-black" onclick="document.getElementById('id06').style.display='none'"><h4>Close</h4></button>
+            </footer>
+            </div>
+        </div>
+    </div>
     <div class="cell"></div>
     <div class="cell"></div>
 
-</div>
+</div><!--Other Equipment Modal Buttons-->
+
 <div class="grid">
     <div class="cell"></div>
 </div>
@@ -176,30 +367,48 @@
     <div class="cell"></div>
 </div>
 <div class="grid">
-    <div class="cell" ></div>
+    <div class="cell">
+        <button onclick="document.getElementById('id03').style.display='block'" class="w3-button w3-black">DAW Controllers</button>
+
+        <div id="id03" class="w3-modal">
+            <div class="w3-modal-content w3-animate-top w3-card-4">
+            <header class="w3-container w3-black"> 
+                <span onclick="document.getElementById('id03').style.display='none'" 
+                class="w3-button w3-display-topright">&times;</span>
+                <h2>DAW Controllers</h2>
+            </header>
+            <div class="w3-container">
+                <p>Believe it or not there are many chart-topping producers who do not play an instrument or have even the slightest inkling about 
+                    music theory, they use the tools provided within the DAW to create chords, melodys, arpeggios, and other neat tricks that have 
+                    them owning a perfectly viable idea that they can then expand on. Others on the other hand, like an instrument beneath our 
+                    fingertips to play out ideas. This is where the humble controller comes into play. "what is the difference between a keyboard 
+                    and a controller?" you may ask, basically, not much. A keyboard will generally come equipped with onboard sounds and speakers 
+                    making it an instrument in it's own right. A controller has nothing really other than faders, pots (knobs) and pads and relies 
+                    on sending a MIDI (Musical Instrument Digital Interface) signal into the computer to trigger sounds, or automation commands. Of 
+                    course, in this day and age, nearly most keyboards come equipped with USB connections to act as a controller for the budding
+                     producer so why choose a controller instead? Well, basically it comes down to cost. A controller costs much less than a keyboard 
+                     does making it more accessible. Keyboards generally don't come equipped with faders, pots and pads whereas they are standard on 
+                     controllers. 
+                </p>
+                <p>Not all controllers come in keyboard form, they can be a mixing desk, a trigger pad board, anything that controls actions within 
+                    a DAW is classed as a controller. I myself use a main keyboard controller for playing in MIDI notes, a launchpad board for assigning 
+                clips or triggering actions, and a USB DAW mixer for hands on mix control. Once more, this is all down to preferance that comes with 
+            experience and it's something you will develop along the way!   </p>
+            </div>
+            <footer class="w3-container w3-black">
+                <h4>Examples of DAW controllers: <a href="https://m-audio.com/products/view3/oxygen-iv-49" target="_blank">M-Audio Oxygen</a> / 
+                                                <a href="https://nektartech.com/panorama-p1/" target="_blank">Nektar Panorama P1</a> / 
+                                                <a href="https://novationmusic.com/en/launch/launchpad-x" target="_blank">Novation Launchpad X</a> 
+                                                <button class="w3-button w3-right w3-black" onclick="document.getElementById('id03').style.display='none'"><h4>Close</h4></button></h4>
+            </footer>
+            </div>
+        </div>
+    </div><!--DAW Controller Modal Buttons-->
     
 
 </div>
 <div class="grid">
     <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell styling"><h4>Mixers</h4></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-
 </div>
 <div class="grid">
     <div class="cell"></div>
@@ -209,6 +418,14 @@
 
 
 </article>
+
+<div class="row">
+    <div class="col-md-12 nextmonthbannertitle">
+          <nav><h4>you can hear the last full album <a href="bit.ly/splz_snglcr" target="_blank">"Singulacra"</a>here !!</h4></nav>
+          <nav><h4>Catch up with Sophia at: <a href="www.sophialoizou.com" target="_blank">sophialoizou.com</a></h4></nav>
+          <h3 style="background-color: black"><yellow>NEXT MONTH: we catch up with 90's jungle legend Krust to talk about his come-back album "The Edge Of Eveything"</yellow></h3>
+    </div>
+  </div>
 
 <!--**********FOOTER STYLING**********-->
 

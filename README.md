@@ -42,6 +42,10 @@ applied throughout the site where I felt it necessary to enhance an element.<br>
 <br>
 On the article pages I wanted to make a simple enhancement to the text areas so I opted to use a gradient option to fade two 
 colors into each other. I felt this gave enough interest to the eye without taking away from the text. <br>
+<br>
+The "How To...." page I wanted to feature a very interactive element, blending information with a good visual presentation
+and I wanted to feature the use of Modals. So I researched a couple of articles and through W3schools.com, I integrated their 
+modal code into the page and adapted it to suit my needs.
 
 <hr>
 Site layout in more detail.
