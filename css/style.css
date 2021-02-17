@@ -14,12 +14,12 @@ FOOTER SECTION STYLING
 */
 /***********SHARED BODY STYLING*****/
 body {
-  font-family: Oswald, sans-serif;
-  overflow-x: hidden;
-  padding-bottom: 40px;
-  height: 100%;
-  min-height: 100%;
-  position: relative;
+    font-family: Oswald, sans-serif;
+    overflow-x: hidden;
+    padding-bottom: 40px;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
 }
 
 .active h1{
@@ -36,7 +36,7 @@ hr {
 }
 
 grey {
-  color: grey;
+    color: grey;
 }
 
 strong {
@@ -45,7 +45,7 @@ strong {
 
 
 nav h1 {
-  color: white;
+    color: white;
 }
 
 h6 {
@@ -93,26 +93,26 @@ h6 {
 
 /********START OF FEATURING THIS MONTH STYLING*********/
 table {
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red;
 }
 td {
     
-  border: 2px solid white;
-  text-align: center;
-  width: 280px;
-  background-color: black;
-  padding: 10px 0;
+    border: 2px solid white;
+    text-align: center;
+    width: 280px;
+    background-color: black;
+    padding: 10px 0;
 }
 
 td p {
-  color:white;
+    color:white;
 }
 img {
-  width: 100%;
-  height: 150px;
-  display: block
+    width: 100%;
+    height: 150px;
+    display: block
 }
 yellow {
     color: yellow;
@@ -138,15 +138,15 @@ yellow {
 }
 
 .leftarticle {
-  margin-top: 40px;
-  z-index: 1;
-  background: url(/images/img4.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  left: 50px;
-  bottom: 30px;
-  min-height: 360px;
+    margin-top: 40px;
+    z-index: 1;
+    background: url(/images/img4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 50px;
+    bottom: 30px;
+    min-height: 360px;
   
 }
 
@@ -161,21 +161,21 @@ yellow {
 }
 
 .labelstyle {
-  margin-left: 350px;
-  font-size: xx-large;
-  color: gold;
+    margin-left: 350px;
+    font-size: xx-large;
+    color: gold;
 }
 
 .labelstyle2 {
-  margin-left: 350px;
-  font-size: xxx-large;
-  color: gold;
+    margin-left: 350px;
+    font-size: xxx-large;
+    color: gold;
 }
 
 .labelstyle3 {
-  margin-left: 350px;
-  font-size: large;
-  color: gold;
+    margin-left: 350px;
+    font-size: large;
+    color: gold;
 }
 
 .rightarticle {
@@ -189,173 +189,49 @@ yellow {
 }
 
 .labelstyle4 {
-  border: 3px solid black;
-  background: green;
-  margin-top: 125px;
-  margin-left: 360px;
-  font-size: xxx-large;
-  color: gold;
+    border: 3px solid black;
+    background: green;
+    margin-top: 125px;
+    margin-left: 360px;
+    font-size: xxx-large;
+    color: gold;
 }
 
 .labelstyle5 {
-  border: 3px solid black;
-  background: green;
-  margin-top: 40px;
-  margin-left: 300px;
-  font-size: large;
-  text-align: center;
-  color: gold;
+    border: 3px solid black;
+    background: green;
+    margin-top: 40px;
+    margin-left: 300px;
+    font-size: large;
+    text-align: center;
+    color: gold;
 }
 
 object {
     min-width: 100%;
     min-height: 900px;
     overflow:auto;
-    /* border: 5px ridge blue; */
+    
 }
 /*END OF IN INTERVIEW AND TECH-NEWS SECTION STYLING*/
 
-/*THIS IS THE HOW TO SECTION STYLING*/
 
-    .homestudioback {
-        background: url("/images/studio.jpg");
-        position: relative;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .howtobanner {
-        
-        text-align: center;
-        color: black;
-    }
-    .styling {
-        background-color: white;
-    }
-    .grid {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    
-    .cell {
-        flex: 0 0 5%;
-        height: 50px;
-        margin-bottom: 5px;
-        border: 1px solid black;
-    }
-    
-    button h4 {
-        color: white;
-    }
-    a {
-        color: rgb(147, 147, 243);
-    }
-    /* .cell:nth-child(3n) {
-        background-color: #f00;
-    } */
-    /*THIS IS THE END OF THE HOW TO SECTION STYLING*/
 
-    /* THIS IS THE HOWTO2 SECTION STYLING */
+/* THIS IS THE HOWTO2 SECTION STYLING */
 
-    .howto img {
-        width: 90vw;
-        height: 100%;
-        display: block;
-    }
-    .cell {
-        display: flex;
-        justify-content: center;
-        border: none;
-    }
+.howto img {
+    width: 90vw;
+    height: 100%;
+    display: block;
+}
+.cell {
+    display: flex;
+    justify-content: center;
+    border: none;
+}
     /* THIS IS THE END OF THE HOWTO2 SECTION STYLING */
 
-/*START OF CUBASE SECTION STYLING*/
-.wrapper {
-  background-color: rgb(221, 221, 221);
-  margin-left: 100px;
-  margin-right: 100px;
-}
 
-/*hr{
-  border: none;
-}*/
-
-.box {
-  margin: 0 auto;
-  width: 60%;
-  height: 400px;
-  border: 5px solid black;
-}
-.box img{
-    float: left;
-    width: 100%;
-    height:100%;
-}
-.small-left-box {
-  float: left;
-  width: 40%;
-  height: 150px;
-  border: 5px solid black;
-}
-
-.small-right-box {
-  float: right;
-  width: 40%;
-  height: 150px;
-  border-left: 5px solid black;
-  border-bottom: 5px solid black;
-}
-.text-box {
-  margin: 0 auto;
-  width: 60%;
-  height: 400px;
-  border: 5px solid black;
-}
-
-.text-box p, h1, h5 {
- padding: 0;
- }
-
-.smtext-box {
-  margin: 10px 10px 10px 15px;
-  width: 95%;
-  max-height: 300px;
-  border: 5px solid black;
-  text-align: center;
-  
-}
-
-/*img {
-  float: left;
-  width: 100%;
-  height:100%;
-}*/
-
-.thismonthtopbannertitle {
-    margin-top: 10px;
-    border: 3px solid;  
-    background: url();
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100px;
-  }
-
-  .bottombannertitle {
-    margin-top: 10px;
-    margin-bottom: 70px;
-    border: 3px solid;  
-    max-height: 150px;
-    }
-
-    .bottombannertitle img {
-        float: left;
-        width: 100%;
-        height:100%;
-    }
-
-    /*END OF CUBASE SECTION STYLING*/
-/**********************/
 
 /*THIS IS THE NEXT MONTH SECTION STYLING*/
 
@@ -366,13 +242,13 @@ object {
 }
 
 .thismonthbannerai {
-  margin-top: 10px;
-  border: 3px solid;  
-  background: url(/images/usbaudiointerfaces-2x1-.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 340px;
+    margin-top: 10px;
+    border: 3px solid;  
+    background: url(/images/usbaudiointerfaces-2x1-.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 340px;
 }
 
 .heading {
@@ -380,25 +256,25 @@ object {
     border-top: 3px solid black;
     border-right: 3px solid black;
     border-bottom: 3px solid black;
-  padding-right:35px;
-  background: -webkit-linear-gradient(gray, white, gray);
+    padding-right:35px;
+    background: -webkit-linear-gradient(gray, white, gray);
 }
 
 .name {  
 
-  font-weight: 100;
-  font-size: 46px;
-  margin-top: 50px;
-  color: black;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: black;
 }
 
 .subject {  
     
-  font-weight: 200;
-  font-size: 28px;
-  margin-top: 20px;
-  margin-bottom: 140px;
-  color: black;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 140px;
+    color: black;
 }
 
 /*THIS IS THE END OF NEXT MONTH SECTION STYLING*/
@@ -608,6 +484,7 @@ yellow{color:yellow ;}
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-width: auto;
     min-height: 340px;
 }
 
@@ -670,9 +547,6 @@ yellow{color:yellow ;}
   height: auto;
 }
 
-/*hr{
-  border: none;
-}*/
 .colunga {
     margin-top: 10px;
 } 
@@ -764,12 +638,17 @@ i {
 
 
 
-@media screen and (max-width: 1215px) {
-    .homestudioback {
+@media screen and (max-width: 1024px) {
+    .head strong, grey{
+        color: red;
+        
+    }
+    
+    /* .homestudioback {
        
         max-width: 100vw;
         height: 100vw;
-    }
+    } */
 }
 
 
@@ -800,6 +679,8 @@ i {
        left: 0px;
        right: 15px;
     }
+
+    
     
     .right {
     border-top: 3px solid white;
@@ -849,16 +730,16 @@ i {
 
     /* IN INTERVIEW MOBILE STYLINGS */
 .heading {
-    max-height: 420px;
-    min-height: 420px;
+    max-height: 460px;
+    min-height: 460px;
     background: -webkit-linear-gradient(rgb(31, 0, 31), white);
     border-left: 3px solid black;
     margin-left: 20px;
     margin-right: 20px;
 }
 .lgheading {
-    max-height: 460px;
-    min-height: 460px;
+    max-height: 480px;
+    min-height: 480px;
     background: -webkit-linear-gradient(rgb(31, 0, 31), white);
     border-left: 3px solid black;
     border-bottom: 3px solid black;
@@ -916,30 +797,47 @@ i {
 }
 /* END OF IN INTERVIEW MOBILE STYLINGS */
 
+/* TECH NEWS MOBILE STYLING */
+    .tech-foot{
+        margin-bottom: 20px;
+    }
+/* END OF TECH NEWS MOBILE STYLING */
+
 /* CUBASE11 REVIEW MOBILE STYLINGS */
 
 .cubase {
     margin-left: 20px;
     margin-right: 20px;
-    height: auto;
+    width: 100%;
+    min-height: 200px;
 }
 .cubase2 {
     margin-left: 20px;
     margin-right: 20px;
-    height: auto;
+    width: 100%;
+    min-height: 200px;
 }
 .cubase3 {
     margin-left: 20px;
     margin-right: 20px;
-    height: auto;
+    width: 100%;
+    min-height: 200px;
 }
 .cubheading {
     border-left: 3px solid black;
     margin-left: 20px;
     margin-right: 20px;
-    min-height: 420px;
-    max-height: 420px;
+    min-height: 460px;
+    max-height: 460px;
+    
 }
+.text p {
+   font-size: 4vw
+
+}
+/* .cubheading p {
+    font-size: 4vw;
+} */
 .mdcubheading {
     min-height: 460px;
     max-height: 460px;
@@ -948,7 +846,18 @@ i {
     min-height:720px;
     max-height:720px;
 }
+/* .lgcubheading p {
+    font-size: 4vw;
+} */
 
+.cubheading {
+    min-height:200px;
+}
+
+.videowrapper iframe {
+    width: 100%;
+    height: 200px;
+}
 iframe {
   min-width: 100%;
 }
@@ -996,6 +905,20 @@ iframe {
 
 /* END OF SPOTIFY MOBILE STYLINGS */
 
+/* HOW TO MOBILE STYLINGS */
+.howbody {
+   background-color: black;
+}
+
+.howtobanner {
+    color: white;
+}
+.howto table{
+    margin-left: auto;
+    margin-right: auto;
+}
+/* END OF HOW TO MOBILE STYLINGS */
+
 /* FOOTER MOBILE STYLINGS */
 
 .foot-left{
@@ -1005,3 +928,131 @@ iframe {
 
 
 
+
+/*START OF CUBASE SECTION STYLING*/
+/* .wrapper {
+  background-color: rgb(221, 221, 221);
+  margin-left: 100px;
+  margin-right: 100px;
+} */
+
+/*hr{
+  border: none;
+}*/
+
+/* .box {
+  margin: 0 auto;
+  width: 60%;
+  height: 400px;
+  border: 5px solid black;
+}
+.box img{
+    float: left;
+    width: 100vw;
+    height:100vh;
+}
+.small-left-box {
+  float: left;
+  width: 40%;
+  height: 150px;
+  border: 5px solid black;
+}
+
+.small-right-box {
+  float: right;
+  width: 40%;
+  height: 150px;
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+}
+.text-box {
+  margin: 0 auto;
+  width: 60%;
+  height: 400px;
+  border: 5px solid black;
+}
+
+.text-box p, h1, h5 {
+ padding: 0;
+ }
+
+.smtext-box {
+  margin: 10px 10px 10px 15px;
+  width: 95%;
+  max-height: 300px;
+  border: 5px solid black;
+  text-align: center;
+  
+}
+
+/*img {
+  float: left;
+  width: 100%;
+  height:100%;
+}*/
+
+/* .thismonthtopbannertitle {
+    margin-top: 10px;
+    border: 3px solid;  
+    background: url();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100px;
+  }
+
+  .bottombannertitle {
+    margin-top: 10px;
+    margin-bottom: 70px;
+    border: 3px solid;  
+    max-height: 150px;
+    }
+
+    .bottombannertitle img {
+        float: left;
+        width: 100%;
+        height:100%;
+    }  */
+
+    /*END OF CUBASE SECTION STYLING*/
+/**********************/
+
+/*THIS IS THE HOW TO SECTION STYLING*/
+
+    /* .homestudioback {
+        background: url("/images/studio.jpg");
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .howtobanner {
+        text-align: center;
+        color: black;
+    }
+    
+    .styling {
+        background-color: white;
+    }
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .cell {
+        flex: 0 0 5%;
+        height: 50px;
+        margin-bottom: 5px;
+        border: 1px solid black;
+    }
+    
+    button h4 {
+        color: white;
+    }
+    a {
+        color: rgb(147, 147, 243);
+    } */
+    /* .cell:nth-child(3n) {
+        background-color: #f00;
+    } */
+    /*THIS IS THE END OF THE HOW TO SECTION STYLING*/
