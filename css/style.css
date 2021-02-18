@@ -140,7 +140,7 @@ yellow {
 .leftarticle {
     margin-top: 40px;
     z-index: 1;
-    background: url(/images/img4.png);
+    background: url(../images/img4.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -180,7 +180,7 @@ yellow {
 
 .rightarticle {
     margin-top: 40px;
-    background: url(/images/img5.png);
+    background: url(../images/img5.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -263,7 +263,7 @@ object {
 .thismonthbannerai {
     margin-top: 10px;
     border: 3px solid;  
-    background: url(/images/usbaudiointerfaces-2x1-.jpg);
+    background: url(../images/usbaudiointerfaces-2x1-.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -395,7 +395,7 @@ object {
 .thismonthbanner {
     margin-top: 10px;
     border: 3px solid;  
-    background: url(/images/img4.png);
+    background: url(../images/img4.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -420,7 +420,7 @@ object {
 .thismonthbanner2 {
     margin-top: 10px;
     border: 3px solid;  
-    background: url(/images/img8.png);
+    background: url(../images/img8.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -443,7 +443,7 @@ object {
 .thismonthbanner3 {
     margin-top: 10px;
     border: 3px solid;  
-    background: url(/images/img7.png);
+    background: url(../images/img7.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -453,7 +453,7 @@ object {
 .thismonthbanner4 {
     margin-top: 10px;
     border: 3px solid;  
-    background: url(/images/LOIZOUSOPHUNTOLD2_1600x.png);
+    background: url(../images/LOIZOUSOPHUNTOLD2_1600x.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -499,7 +499,7 @@ yellow{color:yellow ;}
 .cubase {
     margin-top: 10px;
     border: 3px solid;  
-    background: url(/images/img2.png);
+    background: url(../images/img2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -521,7 +521,7 @@ yellow{color:yellow ;}
 .cubase2 {
     margin-top: 10px;
     border: 3px solid;  
-    background: url(/images/img11.png);
+    background: url(../images/img11.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -531,7 +531,7 @@ yellow{color:yellow ;}
 .cubase3 {
     margin-top: 10px;
     border: 3px solid;  
-    background: url(/images/img12.png);
+    background: url(../images/img12.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
