@@ -745,8 +745,14 @@ i {
         font-size: 3vh;
         color: white;
     }
+    .howto, .stud, table {
+    border: none;
+    margin-left: 14px;
+    margin-right: 10px;
+    
+}
     .cell button, h4{
-        margin-top: 30px;
+    margin-top: 30px;
     height: 100px;
     width: 100%;
     font-size: 30px;
@@ -756,6 +762,22 @@ i {
 }
 
 /* END OF HOW TO MOBILE 1024 STYLINGS */
+
+/* IN INTERVIEW MOBILE 1024 STYLINGS */
+
+.heading {
+    background: -webkit-linear-gradient(rgb(31, 0, 31), white);
+}
+.interviewart {
+    margin-left: 20px;
+}
+.nextmonthbannertitle h4{
+    height: 30px;
+    margin-bottom: 30px;
+}
+/* END OF IN INTERVIEW MOBILE 1024 STYLINGS */
+
+
     
 }
 
@@ -853,13 +875,83 @@ i {
 }
 /* END OF HOW TO MOBILE 768 STYLINGS */
 
+/* IN INTERVIEW MOBILE 768 STYLINGS */
+
+.heading {
+    min-width: 98vw; 
+    max-height: 380px;
+    min-height: 380px;
+    background: -webkit-linear-gradient(rgb(31, 0, 31), white);
+    border-left: 3px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.lgheading {
+    max-height: 380px;
+    min-height: 380px;
+    background: -webkit-linear-gradient(rgb(31, 0, 31), white);
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.smheading {
+    max-height: 350px;
+    min-height: 350px;
+}
+.thismonthbanner {
+    min-width: 98vw; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.thismonthbanner2 {
+    /* min-width: 98vw; */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.thismonthbanner3 {
+    /* min-width: 98vw; */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.thismonthbanner4 {
+    /* min-width: 98vw; */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.first {
+    order: 3;
+}
+.second {
+    order: 1;
+}
+.third {
+    order: 2;
+}
+.fourth {
+    order: 5;
+}
+.fifth {
+    order: 4;
+}
+.sixth {
+    order: 7;
+}
+.seventh {
+    order: 6;
+}
+
+/* END OF IN INTERVIEW MOBILE 768 STYLINGS */
+
 
 }
 
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 414px) {
     
 /* LANDING PAGE MOBILE STYLINGS*/
     
@@ -937,8 +1029,9 @@ i {
 }
     /*END OF CONTACT / SUBMISSION FORM MOBILE STYLINGS*/ 
 
-    /* IN INTERVIEW MOBILE STYLINGS */
+    /* IN INTERVIEW 500 MOBILE STYLINGS */
 .heading {
+    /* min-width: 350px; */
     max-height: 460px;
     min-height: 460px;
     background: -webkit-linear-gradient(rgb(31, 0, 31), white);
@@ -947,6 +1040,7 @@ i {
     margin-right: 20px;
 }
 .lgheading {
+   
     max-height: 480px;
     min-height: 480px;
     background: -webkit-linear-gradient(rgb(31, 0, 31), white);
@@ -957,28 +1051,27 @@ i {
     margin-right: 20px;
 }
 .smheading {
+    
     max-height: 350px;
     min-height: 350px;
 }
 .thismonthbanner {
+    /* min-width: 350px; */
     margin-left: 20px;
     margin-right: 20px;
 }
-/* .heading {
-    margin-left: 20px;
-    margin-right: 20px;
-    min-height: 470px;
-    max-height: 470px; 
-}*/
 .thismonthbanner2 {
+    /* min-width: 350px; */
     margin-left: 20px;
     margin-right: 20px;
 }
 .thismonthbanner3 {
+    /* min-width: 350px; */
     margin-left: 20px;
     margin-right: 20px;
 }
 .thismonthbanner4 {
+    /* min-width: 350px; */
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -1004,7 +1097,7 @@ i {
 .seventh {
     order: 6;
 }
-/* END OF IN INTERVIEW MOBILE STYLINGS */
+/* END OF IN INTERVIEW 500 MOBILE STYLINGS */
 
 /* TECH NEWS MOBILE STYLING */
     .tech-foot{
@@ -1114,7 +1207,7 @@ iframe {
 
 /* END OF SPOTIFY MOBILE STYLINGS */
 
-/* HOW TO MOBILE STYLINGS */
+/* HOW TO MOBILE 500px STYLINGS */
 
 .left h1 {
     font-size: 6vh;
@@ -1122,12 +1215,12 @@ iframe {
     margin-bottom: 0;
 }
 .center h1 {
-    font-size: 5vh;
+    font-size: 6vh;
     margin-top: 0;
     margin-bottom: 0;
 }
 .right h1 {
-    font-size: 5vh;
+    font-size: 6vh;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1136,13 +1229,27 @@ iframe {
 }
 
 .howtobanner {
+    font-size: 3vh;
+    height: 32px;
     color: white;
 }
-.howto table{
-    margin-left: auto;
-    margin-right: auto;
+.cell {
+    height: 70px;
 }
-/* END OF HOW TO MOBILE STYLINGS */
+.cell button, h4{
+    height: 60px;
+    width: 100%;
+    font-size: 3vh;
+}
+.cell p {
+    font-size: small;
+}
+
+.howto table{
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+/* END OF HOW TO MOBILE 500px STYLINGS */
 
 /* FOOTER MOBILE STYLINGS */
 
